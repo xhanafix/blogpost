@@ -117,7 +117,7 @@ async function generateBlog() {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                model: 'nousresearch/hermes-3-llama-3.1-405b:free',
+                model: 'google/gemini-flash-1.5-exp',
                 messages: [{
                     role: 'user',
                     content: prompt
