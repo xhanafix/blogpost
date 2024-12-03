@@ -117,7 +117,7 @@ async function generateBlog() {
                 'Content-Type': 'application/json'
             },
             body: JSON.stringify({
-                model: 'google/gemini-flash-1.5-exp',
+                model: 'google/gemini-exp-1121:free',
                 messages: [{
                     role: 'user',
                     content: prompt
