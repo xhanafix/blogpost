@@ -286,3 +286,22 @@ button:active {
     50% { transform: scale(1.2); }
     100% { transform: scale(1); }
 } 
+
+/* Add this to your existing CSS */
+.word-count {
+    margin: 1rem 0;
+    padding: 0.5rem;
+    background-color: var(--card-bg);
+    border-radius: 5px;
+    font-size: 0.9rem;
+    color: var(--text-color);
+    border: 1px solid var(--border-color);
+}
+
+.word-count.warning {
+    color: #e74c3c;
+}
+
+.word-count.success {
+    color: #27ae60;
+} 
